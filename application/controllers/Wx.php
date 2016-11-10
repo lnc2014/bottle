@@ -185,10 +185,6 @@ class Wx extends BaseController {
 	 */
 	public function check_user()
 	{
-        $_SESSION['user_id'] = 1;
-        $_SESSION['jspayOpenId'] = 'ohoNsuGpFYcqe6AWeJ9plmVAir5A';
-		$_SESSION['flag'] = 2;
-		$_SESSION['order_no'] = 'sadjkajdk';
 		//检测用户是否已经登录授权过
 		if(isset($_SESSION['user_id']) && isset($_SESSION['jspayOpenId']) && isset($_SESSION['flag'])){
 			return true;

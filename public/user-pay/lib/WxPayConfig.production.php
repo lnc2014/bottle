@@ -50,12 +50,12 @@ class WxPayConfig
 //商户号1231946702
 //
 //支付秘钥key：shanxiugelnc20160605888weixinpay
-	const APPID = 'wxf4d074259aa6be58';
+	const APPID = 'wx22d71d8754c2a54a';
 	const MCHID = '1231946702';
 	const KEY = 'shanxiugelnc20160605888weixinpay';
-	const APPSECRET = 'b252e4744323b86a69ed7aebea508a92';
-	const NOTIFY_URL = 'http://sxg.lnctime.com/public/user-pay/notify.php';
-	const REDIRECT_URL = 'http://sxg.lnctime.com/public/user-pay/index.php';
+	const APPSECRET = '14e4329b27c6ff940d1470e17cad06b4';
+	const NOTIFY_URL = 'http://bottle.lnctime.com/public/user-pay/notify.php';
+	const REDIRECT_URL = 'http://bottle.lnctime.com/public/user-pay/index.php';
 	public static $appId = null;
     public static $mchId = null;
     public static $key = null;
